@@ -1,8 +1,8 @@
-inicialmente vamos considerar as posiÁıes das cadeiras onde (A B C D E F) s„o as colunas/fileiras verticais e (1 2 3 4 5 6) s„o as linhas/fileiras horizontais .
-Logo o professor separou os alunos de forma em que a coluna A tivessem 2 alunos da disciplina de portugues e 4 de matem·tica 
-, e em seguida as colunas iriam inverter as quantidades de alunos sendo 2 de matematica e 4 de portugues (seguindo assim um padr„o).
-As linhas teriam o mesmo padr„o invertendo somente as quantidade de alunos , sendo 2 de matematica e 4 de portugues e invertendo sequencialmente , logo entao 
-levando em consideraÁ„o o processo de decomposiÁ„o que levou o professor ter mais facilidade ao avaliar as linhas e colunas de forma individual
+inicialmente vamos considerar as posi√ß√µes das cadeiras onde (A B C D E F) s√£o as colunas/fileiras verticais e (1 2 3 4 5 6) s√£o as linhas/fileiras horizontais .
+Logo o professor separou os alunos de forma em que a coluna A tivessem 2 alunos da disciplina de portugues e 4 de matem√°tica 
+, e em seguida as colunas iriam inverter as quantidades de alunos sendo 2 de matematica e 4 de portugues (seguindo assim um padr√£o).
+As linhas teriam o mesmo padr√£o invertendo somente as quantidade de alunos , sendo 2 de matematica e 4 de portugues e invertendo sequencialmente , logo entao 
+levando em considera√ß√£o o processo de decomposi√ß√£o que levou o professor ter mais facilidade ao avaliar as linhas e colunas de forma individual
 atraves do padrao realizado e chegar em um resultado ele logo pode notar que a coluna E e linha 5 houve a troca de alunos passando a ser portugues quebrando assim o padrao 
 que havia realizado
 	A	B	C	D	E	F
@@ -11,7 +11,7 @@ que havia realizado
 
 2	M	P	M	M	P	M
 
-
+ 
 3	M	M	M	P	M	P
 
 
