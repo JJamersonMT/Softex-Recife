@@ -1,0 +1,28 @@
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição
+
+Variáveis :
+
+-Nome
+-Cpf
+-Rg
+-Altura
+-Endereço
+
+Tipo das variáveis:
+
+-Nome (caracter)
+-Cpf (inteiro)
+-Rg (inteiro)
+-Altura (real)
+-Endereço (caracter)
+
+Atribuição:
+
+-Nome <- "josé almeida da silva"
+-Cpf <- 12345678900
+-Rg <- 9517530
+-Altura <-  1,78
+-Endereço <- "Rua A, 380 – Centro – Recife/PE"
