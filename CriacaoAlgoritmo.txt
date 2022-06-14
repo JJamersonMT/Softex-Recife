@@ -1,0 +1,52 @@
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+Variaveis :
+
+- Nome (caracter)
+- Endereço (caracter)
+- Cidade (caracter)
+- CPF (inteiro)
+- RG (inteiro)
+- Idade (inteiro)
+- NomePai (caracter)
+- NomeMae (caracter)
+- Peso (real)
+- RendaBruta (real)
+
+-------------ALGORITMO-----------------
+
+escreva ("informe seu nome de usuario : ")
+ leia (Nome)
+escreva ("informe seu endereço : ")
+ leia (Endereço)
+escreva ("informe sua cidade : ")
+ leia (Cidade)
+escreva ("informe seu cpf : ")
+ leia (Cpf)
+escreva ("informe seu rg : ")
+ leia (Rg)
+escreva ("informe sua idade : ")
+ leia (Idade)
+escreva ("informe o nome de seu pai : ")
+ leia (NomePai)
+escreva ("informe de sua mae : ")
+ leia (NomeMae)
+escreva ("informe seu peso : ")
+ leia (Peso)
+escreva ("informe sua renda bruta : ")
+ leia (RendaBruta)
+
+escreva ("-------------cadastro realizado com sucesso ! ------")
+
+escreva ("nome de usuario : ", Nome)
+escreva ("endereço : ", Endereco)
+escreva ("cidade : ", Cidade)
+escreva ("cpf : ", Cpf)
+escreva ("rg : ", Rg)
+escreva ("idade : ", Idade)
+escreva ("nome do pai : ", NomePai)
+escreva ("nome da mae : ", NomeMae)
+escreva ("peso : ", Peso)
+escreva ("renda bruta : ", RendaBruta)
+
+escreva ("tecle enter para sair !! ")
