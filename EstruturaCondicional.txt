@@ -1,0 +1,93 @@
+escreva("---------------Estrutura Condicional---------------")
+
+caracter transporte 
+caracter resposta
+
+
+escreva("Seu transporte tem rodas e necessita delas para todo o trajeto ?")
+leia(resposta)
+
+se(resposta == "sim"){
+    escreva("Seu transporte é pesado ? ")
+    leia(resposta)
+
+    se(resposta == "sim"){
+        escreva("seu transporte possui mais de 3 rodas ?")
+        leia(resposta)
+
+        se(resposta == "sim")
+            escreva("seu transporte possui mais que 4 rodas ?")
+            leia(resposta)
+            se(resposta == "sim")
+                escreva("seu transporte é um onibus ?")
+                leia(resposta)
+                se(resposta == "sim")
+                    escreva("isso seu transporte é um onibus !!")
+                senao
+                    escreva("seu transporte é um caminhao!!")
+                fimse
+            senao
+                escreva("seu transporte é um carro !!")
+            fimse
+        senao
+            escreva("seu transporte é um trator !!")
+        fimse
+    senao
+        escreva("necessita de combustivel?")
+        leia(resposta)
+        se(resposta == "sim")
+            escreva("seu transporte é uma moto! ")
+        senao
+            escreva("seu transporte é uma bicicleta! ")
+    fimse
+senao
+    escreva("seu transporte é pesado ?")
+    leia(resposta)
+    se(resposta == "sim")
+        escreva("é terrestre ?")
+        leia(resposta)
+        se(resposta == "sim")
+            escreva("seu transporte é um trem")
+        senao 
+            escreva("é aereo?")
+            leia(resposta)
+            se(resposta == "sim")
+                escreva("seu transporte tem elices?")
+                leia(resposta)
+                se(resposta == "sim")
+                    escreva("as elices sao em cima do transporte ?")
+                    leia(resposta)
+                    se(resposta =="sim")
+                        escreva("seu transporte é um helicoptero!!")
+                    senao
+                        escreva("seu transporte é um aviao !!")
+                    fimse
+                senao
+                    escreva("seu transporte é um balao!!")
+                fimse
+        fimse
+            senao
+                escreva("seu transporte locomove submerso a agua ?")
+                leia(resposta)
+                se(resposta == "sim")
+                    escreva("seu transporte é um submarino!!!")
+                senao
+                    escreva("seu transporte é um navio!!")
+                fimse
+            fimse
+    senao
+        escreva("seu transporte é aereo?")
+        leia(resposta)
+        se(resposta == "sim")
+            escreva("seu transporte é um paraquedas!!")
+        senao
+            escreva("seu transporte necessita de remos ?")
+            leia(resposta)
+            se(resposta == "sim")
+                escreva("seu transporte é um barco!!")
+            senao
+                escreva("seu transporte é uma lancha!!")
+            fimse
+        fimse
+    fimse
+            
