@@ -1,0 +1,84 @@
+escreva("----------estrutura de repetição-----------")
+
+variaveis:
+caracter nome;
+caracter turma;
+real notaC,NomeC  ,nota , MNota , MNotaA, MNotaB, MNotaC, MNotaD;
+inteiro turmaAQ , turmaBQ , turmaCQ , turmaDQ
+
+para (x de 1 ate 100 passa x<-x+1 )faca
+
+    escreva("informe seu nome : ")
+    leia(nome)
+
+    escreva("informe sua turma : ")
+    leia(turma)
+
+    escreva("informe sua nota : ")
+    leia(nota)
+
+        se(turma == "A")faca
+            se(nota >= 7)faca
+                turmaAQ<-turmaAQ+1
+            fimse
+            se(nota > notaC)faca
+                notaC <- nota
+                nomeC <- nome 
+            fimse
+            se(nota > MNotaA)faca
+                MnotaA <- nota
+            fimse
+        
+        senao
+            se(turma == "B")faca
+                se(nota >= 7)faca
+                turmaBQ<-turmaBQ+1
+                fimse
+                se(nota > notaC)faca
+                    notaC <- nota
+                    nomeC <- nome
+                fimse 
+                se(nota > MNotaB)faca
+                    MnotaB <- nota
+                fimse
+            fimse
+            
+        senao
+            se(turma == "C")faca
+                se(nota >= 7)faca
+                turmaCQ<-turmaCQ+1
+                fimse
+                se(nota > notaC)faca
+                    notaC <- nota
+                    nomeC <- nome
+                fimse
+                se(nota > MNotaC)faca
+                    MnotaC <- nota
+                fimse
+            fimse
+        senao
+            se(turma == "D")faca
+                se(nota >= 7)faca
+                turmaDQ<-turmaDQ+1
+                fimse
+                se(nota > notaC)faca
+                    notaC <- nota
+                    nomeC <- nome
+                fimse
+                se(nota > MNotaD)faca
+                    MnotaD <- nota
+                fimse
+            fimse
+        fimse
+        MNota<-NotaC
+        escreva("a maior nota de todas foi ",MNota,"do aluno ",nomeC)
+        escreva("a maior nota da turma A foi :",MNotaA)
+        escreva("a maior nota da turma B foi :",MNotaB)
+        escreva("a maior nota da turma C foi :",MNotaC)
+        escreva("a maior nota da turma D foi :",MNotaD)
+        escreva("a quantidade de aprovados da turma A foi : ",turmaAQ)
+        escreva("a quantidade de aprovados da turma B foi : ",turmaBQ)
+        escreva("a quantidade de aprovados da turma C foi : ",turmaCQ)
+        escreva("a quantidade de aprovados da turma D foi : ",turmaDQ)
+
+
