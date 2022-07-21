@@ -1,0 +1,5 @@
+Module pattern
+Projetos grandes precisam usar módulos e namespaces 
+e isso é possível com o Module pattern, que também permite o encapsulamento de objetos
+O module pattern usa conceitos para organizar o código e, dessa forma, usando funções encadeadas 
+é possível criar o encapsulamento de propriedades e métodos.
